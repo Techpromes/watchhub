@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.food-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.food-details {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.food-details h2 {
+    margin-top: 0;
+}
+
+.food-details p {
+    line-height: 1.5;
+}
+
+.food-details h3 {
+    color: #e44d26; /* Adjust color as needed */
+}
+
+.food-details button {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.food-details img {
+    max-width: 100%;
+    height: auto;
+}

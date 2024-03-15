@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none; /* Change to 'none' to remove text decoration */
+    color: blueviolet; /* Added colon after 'color' property */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerbar{
+    display: none;
+}
+.searchicon{
+    display:block;
+}
+.logo img {
+    width: 150px;
+    height: 50px;
+    left:0px;
+    right: 10px;
+}
+.bar{
+    display: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0.7vw;
+    background-color: rgb(248, 232, 217);
+    border-bottom: 2px solid;
+    box-shadow: 0 2px 20px rgb(253, 124, 124);
+}
+.header ul{
+    display: flex;
+    align-items: center;
+}
+.header ul li:hover{
+    color: blue;
+}
+.nav ul li{
+    padding: 0 15px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.account{
+    flex:0.1
+}
+.account ul{
+    display: flex;
+    justify-content: end;
+}
+.account ul li{
+    padding:0 15px;
+    font-size: 20px;
+}
+.bar i:hover{
+    color: aqua;
+}
+.search{     
+    display: none;
+    width:200px;
+    justify-content: center;
+}
+.search input{
+    width:100%;
+    outline:none;
+    border:none;
+    padding:5px;
+}
+.srchicon{
+    background-color: red;
+    display: block;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.food-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.food-details {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.food-details h2 {
+    margin-top: 0;
+}
+
+.food-details p {
+    line-height: 1.5;
+}
+
+.food-details h3 {
+    color: #e44d26; /* Adjust color as needed */
+}
+
+.food-details button {
+    background-color: skyblue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.food-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.home{
+    background-color: aquamarine;
+    padding: 0 7vw;
+    }
+  
+
+    .footer{
+        padding: 60px 0;
+        border-top: 2px solid red;
+        background-color: cornflowerblue;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .footer-1 .logo img{
+        width:200px;
+    }
+    
+    .footer-1 p{
+        cursor: pointer;
+        font-size: 14px;
+        padding: 2px;
+        color: green;
+    }
+    
+    .footer-2{
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .footer-2 h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .footer-2 img{
+        width:50px;
+        margin-bottom: 15px;
+    }
+    .white_btn {
+        cursor: pointer;
+        margin-top: 20px;
+        width: 160px;
+        font-weight: bold;
+        background-color: #87ceeb;
+        cursor: pointer;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+    
+    .white_btn:hover{
+        background-color: lightgreen;
+        box-shadow: 0 10px 15px  cyan;
+    }
+    
